@@ -26,8 +26,6 @@ int main(void)
     {
         disp7seg( i );
         _delay_ms(500);
-
-        // Incremento limitado: 0..15
         i = ++i % 16;
     }
 }
